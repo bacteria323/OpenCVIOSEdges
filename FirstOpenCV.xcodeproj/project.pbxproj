@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D5A54609B8458BBC322EB42 /* libPods-FirstOpenCVUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 347BB6D92297AF297933FB0D /* libPods-FirstOpenCVUITests.a */; };
+		C8AE234B463AE1C7A5B1B7A8 /* libPods-FirstOpenCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A67F6A52EF34CC12D5C0089E /* libPods-FirstOpenCV.a */; };
+		D5F26D631EE9120800991957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F26D621EE9120800991957 /* main.m */; };
+		D5F26D661EE9120800991957 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F26D651EE9120800991957 /* AppDelegate.m */; };
+		D5F26D691EE9120800991957 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F26D681EE9120800991957 /* ViewController.m */; };
+		D5F26D6C1EE9120800991957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F26D6A1EE9120800991957 /* Main.storyboard */; };
+		D5F26D6E1EE9120800991957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F26D6D1EE9120800991957 /* Assets.xcassets */; };
+		D5F26D711EE9120800991957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F26D6F1EE9120800991957 /* LaunchScreen.storyboard */; };
+		D5F26D7C1EE9120800991957 /* FirstOpenCVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F26D7B1EE9120800991957 /* FirstOpenCVUITests.m */; };
+		D5F26D8A1EE913F700991957 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F26D891EE913F700991957 /* Accelerate.framework */; };
+		D5F26D8C1EE9140400991957 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F26D8B1EE9140400991957 /* AssetsLibrary.framework */; };
+		D5F26D8E1EE9140D00991957 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F26D8D1EE9140D00991957 /* CoreMedia.framework */; };
+		D5F26D901EE9141400991957 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F26D8F1EE9141400991957 /* CoreImage.framework */; };
+		D5F26D921EE9141D00991957 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F26D911EE9141D00991957 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5F26D781EE9120800991957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F26D561EE9120800991957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F26D5D1EE9120800991957;
+			remoteInfo = FirstOpenCV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24E78CC62BF60D043314BECE /* Pods-FirstOpenCVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstOpenCVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstOpenCVUITests/Pods-FirstOpenCVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DFD50986E4B425081A27663 /* Pods-FirstOpenCVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstOpenCVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstOpenCVUITests/Pods-FirstOpenCVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		347BB6D92297AF297933FB0D /* libPods-FirstOpenCVUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstOpenCVUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0EB521AA6BDF7B2E33007A /* Pods-FirstOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstOpenCV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstOpenCV/Pods-FirstOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
+		4C7338B83BB2C6C7229CC630 /* Pods-FirstOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstOpenCV.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstOpenCV/Pods-FirstOpenCV.release.xcconfig"; sourceTree = "<group>"; };
+		A67F6A52EF34CC12D5C0089E /* libPods-FirstOpenCV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstOpenCV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F26D5E1EE9120800991957 /* FirstOpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstOpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F26D621EE9120800991957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F26D641EE9120800991957 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5F26D651EE9120800991957 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5F26D671EE9120800991957 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5F26D681EE9120800991957 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5F26D6B1EE9120800991957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5F26D6D1EE9120800991957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5F26D701EE9120800991957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5F26D721EE9120800991957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F26D771EE9120800991957 /* FirstOpenCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstOpenCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F26D7B1EE9120800991957 /* FirstOpenCVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstOpenCVUITests.m; sourceTree = "<group>"; };
+		D5F26D7D1EE9120800991957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F26D871EE9130F00991957 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "../../../../Volumes/BLACKBOX/Learning/IOS/opencv for ios/opencv2.framework"; sourceTree = "<group>"; };
+		D5F26D891EE913F700991957 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D5F26D8B1EE9140400991957 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D5F26D8D1EE9140D00991957 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D5F26D8F1EE9141400991957 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D5F26D911EE9141D00991957 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D5F26D931EE9146200991957 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F26D5B1EE9120800991957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F26D921EE9141D00991957 /* AVFoundation.framework in Frameworks */,
+				D5F26D901EE9141400991957 /* CoreImage.framework in Frameworks */,
+				D5F26D8E1EE9140D00991957 /* CoreMedia.framework in Frameworks */,
+				D5F26D8C1EE9140400991957 /* AssetsLibrary.framework in Frameworks */,
+				D5F26D8A1EE913F700991957 /* Accelerate.framework in Frameworks */,
+				C8AE234B463AE1C7A5B1B7A8 /* libPods-FirstOpenCV.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F26D741EE9120800991957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5A54609B8458BBC322EB42 /* libPods-FirstOpenCVUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC645A980098821967D57EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D0EB521AA6BDF7B2E33007A /* Pods-FirstOpenCV.debug.xcconfig */,
+				4C7338B83BB2C6C7229CC630 /* Pods-FirstOpenCV.release.xcconfig */,
+				24E78CC62BF60D043314BECE /* Pods-FirstOpenCVUITests.debug.xcconfig */,
+				2DFD50986E4B425081A27663 /* Pods-FirstOpenCVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5F26D551EE9120800991957 = {
+			isa = PBXGroup;
+			children = (
+				D5F26D931EE9146200991957 /* PrefixHeader.pch */,
+				D5F26D601EE9120800991957 /* FirstOpenCV */,
+				D5F26D7A1EE9120800991957 /* FirstOpenCVUITests */,
+				D5F26D5F1EE9120800991957 /* Products */,
+				D5F26D861EE9130F00991957 /* Frameworks */,
+				3FC645A980098821967D57EE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F26D5F1EE9120800991957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F26D5E1EE9120800991957 /* FirstOpenCV.app */,
+				D5F26D771EE9120800991957 /* FirstOpenCVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F26D601EE9120800991957 /* FirstOpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				D5F26D641EE9120800991957 /* AppDelegate.h */,
+				D5F26D651EE9120800991957 /* AppDelegate.m */,
+				D5F26D671EE9120800991957 /* ViewController.h */,
+				D5F26D681EE9120800991957 /* ViewController.m */,
+				D5F26D6A1EE9120800991957 /* Main.storyboard */,
+				D5F26D6D1EE9120800991957 /* Assets.xcassets */,
+				D5F26D6F1EE9120800991957 /* LaunchScreen.storyboard */,
+				D5F26D721EE9120800991957 /* Info.plist */,
+				D5F26D611EE9120800991957 /* Supporting Files */,
+			);
+			path = FirstOpenCV;
+			sourceTree = "<group>";
+		};
+		D5F26D611EE9120800991957 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5F26D621EE9120800991957 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5F26D7A1EE9120800991957 /* FirstOpenCVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F26D7B1EE9120800991957 /* FirstOpenCVUITests.m */,
+				D5F26D7D1EE9120800991957 /* Info.plist */,
+			);
+			path = FirstOpenCVUITests;
+			sourceTree = "<group>";
+		};
+		D5F26D861EE9130F00991957 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5F26D911EE9141D00991957 /* AVFoundation.framework */,
+				D5F26D8F1EE9141400991957 /* CoreImage.framework */,
+				D5F26D8D1EE9140D00991957 /* CoreMedia.framework */,
+				D5F26D8B1EE9140400991957 /* AssetsLibrary.framework */,
+				D5F26D891EE913F700991957 /* Accelerate.framework */,
+				D5F26D871EE9130F00991957 /* opencv2.framework */,
+				A67F6A52EF34CC12D5C0089E /* libPods-FirstOpenCV.a */,
+				347BB6D92297AF297933FB0D /* libPods-FirstOpenCVUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F26D5D1EE9120800991957 /* FirstOpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F26D801EE9120800991957 /* Build configuration list for PBXNativeTarget "FirstOpenCV" */;
+			buildPhases = (
+				3A6D8556FD9F06980F26A278 /* [CP] Check Pods Manifest.lock */,
+				D5F26D5A1EE9120800991957 /* Sources */,
+				D5F26D5B1EE9120800991957 /* Frameworks */,
+				D5F26D5C1EE9120800991957 /* Resources */,
+				BFE9673E823F442EF946BD2F /* [CP] Embed Pods Frameworks */,
+				0859333D6FCD4F94F7EB1509 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstOpenCV;
+			productName = FirstOpenCV;
+			productReference = D5F26D5E1EE9120800991957 /* FirstOpenCV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5F26D761EE9120800991957 /* FirstOpenCVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F26D831EE9120800991957 /* Build configuration list for PBXNativeTarget "FirstOpenCVUITests" */;
+			buildPhases = (
+				E8973267933E36DFDDFD2277 /* [CP] Check Pods Manifest.lock */,
+				D5F26D731EE9120800991957 /* Sources */,
+				D5F26D741EE9120800991957 /* Frameworks */,
+				D5F26D751EE9120800991957 /* Resources */,
+				2E868AE6156707AEACACD864 /* [CP] Embed Pods Frameworks */,
+				7C3BDC05678B63236A15CE2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F26D791EE9120800991957 /* PBXTargetDependency */,
+			);
+			name = FirstOpenCVUITests;
+			productName = FirstOpenCVUITests;
+			productReference = D5F26D771EE9120800991957 /* FirstOpenCVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F26D561EE9120800991957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mustardLabs;
+				TargetAttributes = {
+					D5F26D5D1EE9120800991957 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WS5A48MB7C;
+						ProvisioningStyle = Automatic;
+					};
+					D5F26D761EE9120800991957 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5F26D5D1EE9120800991957;
+					};
+				};
+			};
+			buildConfigurationList = D5F26D591EE9120800991957 /* Build configuration list for PBXProject "FirstOpenCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F26D551EE9120800991957;
+			productRefGroup = D5F26D5F1EE9120800991957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F26D5D1EE9120800991957 /* FirstOpenCV */,
+				D5F26D761EE9120800991957 /* FirstOpenCVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F26D5C1EE9120800991957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F26D711EE9120800991957 /* LaunchScreen.storyboard in Resources */,
+				D5F26D6E1EE9120800991957 /* Assets.xcassets in Resources */,
+				D5F26D6C1EE9120800991957 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F26D751EE9120800991957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0859333D6FCD4F94F7EB1509 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstOpenCV/Pods-FirstOpenCV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E868AE6156707AEACACD864 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstOpenCVUITests/Pods-FirstOpenCVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A6D8556FD9F06980F26A278 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C3BDC05678B63236A15CE2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstOpenCVUITests/Pods-FirstOpenCVUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE9673E823F442EF946BD2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstOpenCV/Pods-FirstOpenCV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8973267933E36DFDDFD2277 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F26D5A1EE9120800991957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F26D691EE9120800991957 /* ViewController.m in Sources */,
+				D5F26D661EE9120800991957 /* AppDelegate.m in Sources */,
+				D5F26D631EE9120800991957 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F26D731EE9120800991957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F26D7C1EE9120800991957 /* FirstOpenCVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5F26D791EE9120800991957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F26D5D1EE9120800991957 /* FirstOpenCV */;
+			targetProxy = D5F26D781EE9120800991957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5F26D6A1EE9120800991957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F26D6B1EE9120800991957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5F26D6F1EE9120800991957 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F26D701EE9120800991957 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5F26D7E1EE9120800991957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5F26D7F1EE9120800991957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5F26D811EE9120800991957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0EB521AA6BDF7B2E33007A /* Pods-FirstOpenCV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WS5A48MB7C;
+				INFOPLIST_FILE = FirstOpenCV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustardLabs.FirstOpenCV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5F26D821EE9120800991957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7338B83BB2C6C7229CC630 /* Pods-FirstOpenCV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WS5A48MB7C;
+				INFOPLIST_FILE = FirstOpenCV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustardLabs.FirstOpenCV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5F26D841EE9120800991957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E78CC62BF60D043314BECE /* Pods-FirstOpenCVUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FirstOpenCVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustardLabs.FirstOpenCVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstOpenCV;
+			};
+			name = Debug;
+		};
+		D5F26D851EE9120800991957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFD50986E4B425081A27663 /* Pods-FirstOpenCVUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FirstOpenCVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustardLabs.FirstOpenCVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstOpenCV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F26D591EE9120800991957 /* Build configuration list for PBXProject "FirstOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F26D7E1EE9120800991957 /* Debug */,
+				D5F26D7F1EE9120800991957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F26D801EE9120800991957 /* Build configuration list for PBXNativeTarget "FirstOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F26D811EE9120800991957 /* Debug */,
+				D5F26D821EE9120800991957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5F26D831EE9120800991957 /* Build configuration list for PBXNativeTarget "FirstOpenCVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F26D841EE9120800991957 /* Debug */,
+				D5F26D851EE9120800991957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F26D561EE9120800991957 /* Project object */;
+}
