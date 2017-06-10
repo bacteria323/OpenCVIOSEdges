@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "opencv2/highgui/ios.h"
 
 @interface ViewController : UIViewController {
     UIImage* image;
+    cv::Mat cvImage;
 }
 
 
