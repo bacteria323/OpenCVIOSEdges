@@ -1,19 +1,10 @@
 # OpenCVIOS
-Base project for integrating OpenCV with IOS
+Display contours of an image using the OpenCV library.
 
-If you want to reproduce this repository from scratch start at Step 1. Otherwise download this repository and go to Step 3.
+Things to note:
 
-Step 1: Install cocoa pods 
-`$ sudo gem install cocoapods`
+1. Your view controllers must end with `.mm` instead of `.m`. Refer to http://docs.opencv.org/2.4/doc/tutorials/ios/hello/hello.html#opencvioshelloworld for details.
 
-Step 2: go to project root folder and
-`$ pod init` 
-
-under `#pods for <Your Project>` in the `Podfile` add:
-`pod ‘OpenCV’, '~> 2.4.13'` (replace with other version number if necessary)
-
-Step 3:
-`$ pod install` 
-
-Step 4 !IMPORTANT!:
-close your Xcode if it is already open and open `<Project>.xcworkspace` and **NOT** `<Project>.xcodeproj`
+2. Headers you will need to include either in .h or .mm file:
+#import "opencv2/highgui/ios.h"
+#include "opencv2/opencv.hpp" // Required for CV_RGBA2GRAY variable
