@@ -7,10 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "opencv2/highgui/ios.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *image;
+
 @end
 
 @implementation ViewController
@@ -25,8 +24,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 
 @end
